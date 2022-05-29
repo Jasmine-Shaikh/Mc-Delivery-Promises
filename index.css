@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #BD1906;
+}
+
+#headerLeft {
+    margin: 15px 20px 15px 30px;
+}
+
+#headerRight {
+    margin: 15px 20px 15px 30px;
+}
+
+#head>div>img {
+    height: 35px;
+}
+
+#specialOfferMeals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(206, 206, 206);
+}
+
+#specialOfferMeals>img {
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+
+#menu {
+    display: flex;
+}
+
+#category {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.5px solid #d6d6d6;
+}
+
+.menuCard {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 7px;
+    height: 90%;
+}
+
+.menuCard>img {
+    width: 170px;
+}
+
+#entireCart {
+    width: 50%;
+    padding: 15px;
+}
+
+#cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartFoodContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#totalSummary {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #BD1906;
+    color: #FFBD0B;
+    border-style: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#preparingNowBox>img {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#preparingNowBox {
+    background-color: #ffd45f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 99 !important;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
